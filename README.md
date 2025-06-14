@@ -31,49 +31,36 @@ Fake-News-Detection-main/
 📦 Installation & Setup Instructions
 Clone the Repository
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/Fake-News-Detection.git
 cd Fake-News-Detection-main
 Install Dependencies
 Make sure you have Python 3.7+ installed. Then install required packages:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Or manually install:
 
-bash
-Copy
-Edit
+
 pip install streamlit pandas scikit-learn nltk
 Download NLTK Resources
 
-python
-Copy
-Edit
+
 import nltk
 nltk.download('stopwords')
 Run the App
 
-bash
-Copy
-Edit
+
 streamlit run app.py
+
 📚 Dataset Information
 Source: Kaggle Fake News Dataset
 
 Columns used:
 
-author
-
-title
-
 label (0 = Real, 1 = Fake)
 
-🧠 Model Details
+**🧠 Model Details**
 Preprocessing:
 
 Combine author and title
@@ -86,16 +73,15 @@ Feature Extraction:
 
 TF-IDF Vectorization
 
-Model:
+**Model:**
 
 Logistic Regression
 
 Evaluated with accuracy_score
 
-📸 Screenshots (Optional)
-Add screenshots here (UI, output prediction, accuracy score graph, etc.) if you have any.
 
-🛠️ Future Improvements
+
+**🛠️ Future Improvements**
 Add support for multiple ML models (Random Forest, SVM, BERT)
 
 Improve UI/UX with more advanced design
@@ -104,8 +90,8 @@ Implement API integration for live news detection
 
 Add user feedback and explainability features
 
-🤝 Contributing
+**🤝 Contributing**
 Feel free to fork and enhance the model or web UI. Pull requests are welcome!
 
-📄 License
+**📄 License**
 This project is licensed under the MIT License.
